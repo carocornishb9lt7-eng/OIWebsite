@@ -1,0 +1,195 @@
+body {
+	background-color: rgb(50, 50, 50);
+	font-family: 'Candara';
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	height: 50%;
+	display: grid;
+	grid-template-columns: 1fr 3fr 2fr 1fr;
+	padding-bottom: 20px;
+	grid-column-gap: 10px;
+
+}
+
+.grid-b {
+	height: 50%;
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	padding-bottom: 20px;
+	grid-column-gap: 10px;
+}
+
+.grid-c {
+	height: 50%;
+	display: grid;
+	grid-template: 3fr 1fr / 1fr 2fr 2fr 2fr 1fr;
+	padding-bottom: 20px;
+	grid-column-gap: 10px;
+}
+
+.info p {
+	text-align: left;
+	display: inline;
+
+}
+
+.info ul {
+	color: ivory;
+}
+
+.main {
+	background-color: rgb(60, 60, 60);
+}
+
+/* Add a black background color to the top navigation */
+.nav {
+  overflow: hidden;
+  position: relative;
+  padding-left: 25%;
+  padding-right: 25%;
+  justify-content: center;
+}
+
+.nav #myLinks {
+	display: inline;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  width: 10.5%;
+  border-top: 1px solid ivory;
+
+}
+
+.navMain a{
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+  width: 10.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav a.icon {
+  display: none;
+}
+
+#botnav a {
+  width: 23%;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1, h2 {
+ color: ivory;
+ text-align: center;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h3, p {
+	color: ivory;
+	text-align: center;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.foot {
+	text-align: center;
+}
+
+.header {
+	overflow: visible;
+	background-color: rgb(50, 50, 50);
+}
+
+.event-1-image {
+	grid-column-start: 2;
+	grid-row: 1;
+}
+
+.event-1-text {
+	grid-column-start: 2;
+	grid-row: 2;
+}
+
+.event-2-image {
+	grid-column-start: 3;
+	grid-row: 1;
+}
+
+.event-2-text {
+	grid-column-start: 3;
+	grid-row: 2;
+}
+
+.event-3-image {
+	grid-column-start: 4;
+	grid-row: 1;
+}
+
+.event-3-text {
+	grid-column-start: 4;
+	grid-row: 2;
+}
+
+img.first {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 30%;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #2695AE;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #5DC2D9;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
